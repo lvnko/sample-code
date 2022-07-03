@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sass starter project</title>
-  <link rel="stylesheet" href="scss/example.scss">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Sample Code</title>
+  <link rel="stylesheet" href="scss/main.scss">
 </head>
 
 <body>
-  hello world
+  <div class="container">
+    <div class="flex-container full-height">
+      <div class="row row-header">
+        <div class="header-container flex-row flex-space-between flex-grow-1">
+          <div class="col">
+            <a class="tappable-btn-icon"><img class="asset asset-menu" src="images/icon-menu.svg"/></a>
+          </div>
+          <img class="asset asset-landing-logo" src="images/logo-hori.png"/>
+          <div class="col">
+            <a class="text-medium text-fsz-sm">中文 <img class="asset asset-inline asset-dropdown-angle" src="images/icon-down-angle.svg"/></a>
+          </div>
+        </div>
+      </div>
+      <div class="row row-main-visual flex-column">
+        <div class="row row-graphic">
+          <div class="flex-grow-1"></div>
+          <div>
+            <a class="app-floating-btn-promotion">
+              <div class="icon-wrapper-bubble">
+                <img class="asset asset-present" src="images/icon-present.svg" />
+              </div>
+              <p class="text-badge-rounded">Promotions</p>
+            </a>
+          </div>
+        </div>
+        <div class="row row-app-title">
+          <div class="app-title-container flex-row">
+            <div class="row-title">
+              <p class="text-title"><span class="text-light">Welcome to</span><br/>Fubon Mobile</p>
+            </div>
+            <a class="btn-login">Login</a>
+          </div>
+          <div>
+            <p>Not yet a Fubon Customer? <a>Apply Now <img class="asset asset-inline asset-link-angle" src="images/icon-link-angle.svg"/></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row row-hori-tabs">
+        <div class="tabs-container flex-row flex-start">
+          <div class="tab"></div>
+          <div class="tab"></div>
+          <div class="tab"></div>
+          <div class="tab"></div>
+        </div>
+      </div>
+      <div class="row row-important-notice">
+        <div class="important-notice-container">
+          <p class="text-fsz-mi">Important Notice: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem....</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

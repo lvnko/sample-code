@@ -1,0 +1,20 @@
+$base-vp-width: 375;
+$base-vp-height: 812;
+$base-font-size: 16;
+$base-rem: calc($base-font-size / $base-vp-width * 100);
+$background: #F8F8F8;
+
+@function wp($value) {
+    $result: calc($value / $base-vp-width * 100);
+    @return #{$result}vw;
+}
+
+@function hp($value) {
+    $result: calc($value / $base-vp-height * 100);
+    @return #{$result}vw;
+}
+
+@function fp($value) {
+    $result: calc($value / $base-font-size);
+    @return #{$result}rem;
+}

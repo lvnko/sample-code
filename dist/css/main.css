@@ -149,7 +149,7 @@ p {
 }
 .flex-container .row.row-main-visual {
   flex-grow: 391;
-  background-image: url(/graphic-main-visual.cd74c0a7.png);
+  background-image: url(../images/graphic-main-visual.png);
   background-size: contain;
   background-position: 50% 0%;
   background-repeat: no-repeat;
@@ -236,4 +236,4 @@ p {
   transform: translateX(-50%);
 }
 
-/*# sourceMappingURL=/main.77bb5cfd.css.map */
+/*# sourceMappingURL=main.css.map */

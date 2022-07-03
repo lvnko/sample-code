@@ -3,7 +3,8 @@
 ## How to use this repo
 1. Clone the repo
 2. In your terminal, run `npm install`
-3. In your terminal, run `npm run dev`
+3. In your terminal, run `npm run dev-sass`
+4. In your terminal, run `npm run dev`
 
 You are good to go! It will watch all your files for changes automatically and live update your browser. 
 
